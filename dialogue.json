@@ -1,0 +1,39 @@
+// Note: This is a work in progress example of a dialogue object that can be translated from extracted DR files and contain all relevant information needed to perfectly recreate
+// a Deltarune conversation, including sounds, tickspeed, text effects, and face/emotion selection. This file will change as my understanding evolves
+
+{
+  "_id" : 01 // ID of the conversation
+  "desc" : "sans tells spamton to calm down" // Description for quickly referencing conversation in list
+  "faces" : [ // all dialogue portraits encoded in b64 *(only for custom characters, canon ones can be referenced statically)
+  6 : { // Face ID 6 (sans)
+    1 : "(base64 encoded sans smile)" // Emotion ID 1 (smile)
+    2 : "(base64 encoded sans befriend face)" // Emotion ID 2 (befriend)
+  }
+  ]
+  "voices" : [ // All voices that will participate in the conversation
+  // Please note: All canon voices will be imported from the game files, and their properties will be stored centrally..
+  // So the 'voices' section will only be required for defining custom voices, otherwise they can be referenced
+  // directly in the conversation tree. The same for faces.. Only custom faces and emotions will need to be in the conversation object
+    14 : { // This is the typer of sans that would be extracted from the base game files (gml_globalscript_scr_texttype)
+        "name" : "sans", // not included in the canon game structure but would make things a lot easier
+        "tick" : 1, // tick rate, how fast the text is typed basically
+        "snd"  : "snd_txtsans", // you can figure this out
+        "font" : "comicsans", // you can't figure this oun't
+        "face" : 6 // Face IDtm 
+    },
+    66 : { // Same deal for another speaker
+      "name" : "spamton",
+      "tick" : 1,
+      "snd"  : "snd_txtspam"
+    }
+  ]
+  "trunk" : {
+    14: [
+      {"Emotion": 1, "Message": "hey sans undertale here"}, // Also accepts a "n*" : false parameter which deletes the * prefix
+      {"Emotion": 2, "Message": "i remember you're ^1\\cRGenocide's"} // Will automatically apply a / (wait for input) on all messages      
+    ],
+    66: [
+      {"Message": "Oh! !! I remember you're [Browser Search History]!!!"} // if an emotion is not defined, it'll use the last one used on the character, or no face portrait if one hasn't been used
+    ]
+  }
+}
