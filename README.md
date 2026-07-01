@@ -13,22 +13,27 @@ This will be where I will keep all notes/implementations of my attempt at revers
  8. Create both an API and a UI for creating and retrieving custom dialogue trees
  9. Make it so that it can be embedded in a website as an x-frame
 
+
 ## Feature Creep
 - Allow users to draw out their own faces/portraits/emotions in a built in simple and fun paint tool
 - Allow users to build rooms out of DR assets which can have flavor text attatched to whatever you want
 - Allow these rooms to have doorways that can link to other rooms by ID
 - Allow custom branching conversations to branch off into other conversations by linking the ID as the next message
 
+
 ### Why are you doing this
 I'm a backend developer and I'm desperate to build a video game in a way that I understand. Also I wanted to add a comment section to my website and I thought this would be cool
 
+
 ### Are you using any AI on this project?
-NO!!!!!!!!!!!!!! FUCK YOU!!!!!!!!!! IF YOU PR AI CODE I WILL MAKE FUN OF YOU!!!!
+NO!!!!!!!!!!!!!! FUCK YOU!!!!!!!!!! IF YOU PR AI CODE I WILL MAKE FUN OF YOU!!!! DIE!!!!
+
 
 ### Why the name?
 markdog. like markdown but for annoying dogs
 
+
 ### credits:
-toby fox for creating that fucking game that i love
-https://code.deltarune.wiki for hosting the code in an accessible way to read
-Monster Energy drink for energizing Monsters (works on humans)
+- toby fox for creating that fucking game that i love
+- https://code.deltarune.wiki for hosting the code in an accessible way to read
+- Monster Energy drink for energizing Monsters (works on humans)
