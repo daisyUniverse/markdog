@@ -34,6 +34,13 @@ markdog. like markdown but for annoying dogs
 
 
 ### credits:
-- toby fox for creating that fucking game that i love
+#### - resources -
+- **toby fox** for creating that fucking game that i love
 - https://code.deltarune.wiki for hosting the code in an accessible way to read
-- Monster Energy drink for energizing Monsters (works on humans)
+#### - support -
+- **mc.intosh** and **egochka11** from the **DELTAMODDERS** discord for corrections
+- the **DELTAMODDERS** discord in general for making this look fun
+- Monster Energy Drink for energizing Monsters (works on humans)
+
+this project is licensed under the Do Whatever The Fuck You Want license
+  
