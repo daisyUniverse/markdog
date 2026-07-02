@@ -30,7 +30,7 @@ NO!!!!!!!!!!!!!! FUCK YOU!!!!!!!!!! IF YOU PR AI CODE I WILL MAKE FUN OF YOU!!!!
 
 
 ### Why the name?
-markdog. like markdown but for annoying dogs
+barkdown. like markdown but for annoying dogs
 
 
 ### credits:
