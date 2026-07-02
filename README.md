@@ -1,4 +1,4 @@
-# markdog
+# barkdown
 This will be where I will keep all notes/implementations of my attempt at reverse engineering and reimplementing the dialogue parsing system from Deltarune
 
 ## Goal:
