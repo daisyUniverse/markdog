@@ -1,6 +1,8 @@
 # barkdown
 This will be where I will keep all notes/implementations of my attempt at reverse engineering and reimplementing the dialogue parsing system from Deltarune
 
+Research spreadsheet: https://docs.google.com/spreadsheets/d/1mq4Pp5NGSEdeoWDZtitSyV7w8OtMK4H_AM343tU3gOg/edit?usp=sharing
+
 ## Goal:
  0. Study the code, and work out how dialogue entries are created, invoked, and parsed - Also document this heavily - I want the spec to be clearly defined
  1. Create a functional intermediary format that can contain every piece of data required to perfectly recreate all possible Deltarune dialogues
